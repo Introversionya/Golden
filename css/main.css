@@ -7,7 +7,7 @@ body {
 
 header {
     background: url(../img/first-bg.jpg) no-repeat center top / cover;
-    padding-bottom: 160px;
+    height: 100vh;
 }
 
 div {
@@ -60,7 +60,7 @@ nav {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 180px;
+    margin-top: 66px;
 }
 
 h1 {
@@ -159,4 +159,35 @@ h1 {
 
 .works img:last-child {
     float: right;
+}
+
+#itmrgt {
+    text-align: right;
+    width: 280px;
+}
+
+#itmrgt2 {
+    text-align: left;
+}
+
+#test {
+    padding-left: 83px;
+}
+
+#test2 {
+    padding-left: 363px;
+}
+
+
+.center {
+    width: 930px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+   }
+
+
+footer {
+    text-align: center;
+    padding: 115px;
+    background: #f7f7f7;
 }
